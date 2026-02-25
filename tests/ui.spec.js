@@ -1,5 +1,5 @@
 const { test } = require('@playwright/test');
-const { login, addItemToCart, checkout,removeItemFromCart } = require('./helper');
+const { login, addItemToCart, checkout,removeItemFromCart } = require('./Helper');
 
 test('Login valid test', async ({ page }) => {
   await login(page, 'standard_user', 'secret_sauce');
