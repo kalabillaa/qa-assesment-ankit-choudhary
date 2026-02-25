@@ -15,6 +15,7 @@ test('Add to cart test', async ({ page }) => {
   await removeItemFromCart(page, 'sauce-labs-backpack');
 });
 
+
 test('Checkout test', async ({ page }) => {
   await login(page);
   await addItemToCart(page, 'sauce-labs-backpack');
